@@ -10,11 +10,6 @@ cd data
 # Download Jsonl corpus converted and hosted by Tevatron 
 wget https://huggingface.co/datasets/Tevatron/wikipedia-nq-corpus/blob/main/corpus.jsonl.gz
 gunzip corpus.jsonl.gz
-
-# (Optional) Download original TSV corpus and convert to Jsonl
-wget https://dl.fbaipublicfiles.com/dpr/wikipedia_split/psgs_w100.tsv.gz
-gunzip psgs_w100.tsv.gz
-python convert_tsv_to_jsonl.py --input_path psgs_w100.tsv --output_path corpus.jsonl
 ```
 
 2. Download Training datasets from DPR-NQ
