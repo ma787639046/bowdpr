@@ -22,5 +22,5 @@ We have released the fine-tuned [MS-MARCO](https://huggingface.co/bowdpr/bowdpr_
 ```bash
 # Save the scores of retrieval results to this folder. Change to any temporary folder as you wish
 mkdir -p results/msmarco
-bash test_dpr_nq.sh bowdpr/bowdpr_marco_ft results/msmarco
+bash test_dpr_msmarco.sh bowdpr/bowdpr_marco_ft results/msmarco
 ```
