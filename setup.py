@@ -14,6 +14,8 @@ setup(
         'fire',
         'pandas',
         'regex',
+        'tensorboard',
+        'tabulate',
         'sentence_transformers',
     ],
 )
