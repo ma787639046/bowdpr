@@ -19,9 +19,6 @@ TREC_DIR_S2=$BASE_DIR/results/$TRAIL_NAME/trec_dl/s2
 LOG_DIR=$BASE_DIR/results/$TRAIL_NAME/logs
 mkdir -p $LOG_DIR
 
-echo $MODEL_PATH
-exit
-
 # Global model kwargs
 MODEL_KWARGS=" --pooling_strategy cls "
 MODEL_KWARGS+=" --score_function dot "
