@@ -99,7 +99,7 @@ if [ ! -f "$OUTPUT_DIR/encoding/corpus_s1/psg.0.pt" ]; then
     --p_max_len $P_MLEN \
     --per_device_eval_batch_size 2048 \
     --dataloader_num_workers 8 \
-    --corpus_dir data/corpus.jsonl \
+    --corpus_path data/corpus.jsonl \
     --encoded_save_prefix $OUTPUT_DIR/encoding/corpus_s1/psg \
     $MODEL_KWARGS \
     |& tee $LOG_DIR/nq_ft_mine_s1hn.log
