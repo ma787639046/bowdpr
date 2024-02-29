@@ -18,6 +18,9 @@ wget https://msmarco.blob.core.windows.net/msmarcoranking/msmarco-test2020-queri
 gunzip msmarco-test2020-queries.tsv.gz
 wget https://trec.nist.gov/data/deep/2020qrels-pass.txt
 
+mkdir -p marco/text/trec_dl_2019
+mkdir -p marco/text/trec_dl_2020
+
 # Text format
 cd $SCRIPT_DIR
 cp marco/downloads/trec_dl_2019/2019qrels-pass.txt marco/text/trec_dl_2019
